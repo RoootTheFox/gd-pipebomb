@@ -1,0 +1,14 @@
+{
+	"geode": "2.0.0-beta.24",
+	"gd": "2.204",
+	"version": "v0.1.0",
+	"id": "rooot.pipebomb",
+	"name": "Pipebomb",
+	"developer": "rooot",
+	"description": "Send pipe bombs to your friends!",
+	"resources": {
+		"files": [
+			"resources/audio/pipebomb.ogg"
+		]
+	}
+}
