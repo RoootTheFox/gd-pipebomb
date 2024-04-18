@@ -34,8 +34,9 @@ class $modify(GJMessagePopup) {
 		if (message.find("pipebomb") != std::string::npos || message.find("pipe bomb") != std::string::npos) {
 			log::info("pipe bomb :33");
 
-			auto audio_engine = FMODAudioEngine::sharedEngine();
-			audio_engine->playEffect("rooot.pipebomb/pipebomb.ogg");
+			if (Mod::get()->getSettingValue<bool>("enable-sound")) {
+				FMODAudioEngine::sharedEngine()->playEffect("rooot.pipebomb/pipebomb.ogg");
+			}
 
 			auto win_size = CCDirector::sharedDirector()->getWinSize();
 			auto flashbang = CCLayerGradient::create(ccColor4B{255, 255, 255, 255}, ccColor4B{255, 255, 255, 255}, {0, 1});

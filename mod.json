@@ -10,5 +10,13 @@
 		"files": [
 			"resources/audio/pipebomb.ogg"
 		]
+	},
+	"settings": {
+		"enable-sound": {
+			"name": "Enable Sound (LOUD!!)",
+			"description": "Enables the pipebomb sound, may break your ears.",
+			"type": "bool",
+			"default": false
+		}
 	}
 }
