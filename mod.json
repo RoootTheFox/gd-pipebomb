@@ -1,9 +1,13 @@
 {
 	"geode": "2.0.0-beta.24",
-	"gd": "2.204",
+	"gd": {
+		"win": "2.204",
+		"android": "2.205",
+		"mac": "2.200"
+	},
 	"version": "v0.1.0",
 	"id": "rooot.pipebomb",
-	"name": "Pipebomb",
+	"name": "Pipe bomb",
 	"developer": "rooot",
 	"description": "Send pipe bombs to your friends!",
 	"resources": {
