@@ -39,7 +39,7 @@ class $modify(GJMessagePopup) {
 			}
 
 			auto win_size = CCDirector::sharedDirector()->getWinSize();
-			auto flashbang = CCLayerGradient::create(ccColor4B{255, 255, 255, 255}, ccColor4B{255, 255, 255, 255}, {0, 1});
+			auto flashbang = CCLayerGradient::create(ccColor4B{255, 255, 255, 255}, ccColor4B{255, 255, 255, 255});
 
 			flashbang->setZOrder(9999);
 			flashbang->setContentSize(win_size);
