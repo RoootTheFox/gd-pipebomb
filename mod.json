@@ -17,8 +17,8 @@
 	},
 	"settings": {
 		"enable-sound": {
-			"name": "Enable Sound (LOUD!!)",
-			"description": "Enables the pipebomb sound, may break your ears.",
+			"name": "Enable Sound (LOUD!!) (very)",
+			"description": "Enables the pipebomb sound, may break your ears. BEWARE WHEN USING HEADPHONES!",
 			"type": "bool",
 			"default": false
 		}
