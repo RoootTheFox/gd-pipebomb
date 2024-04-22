@@ -36,7 +36,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build the mod pwease >~< uwu
+      - name: Build the mod
         uses: RoootTheFox/build-geode-mod@main
         with:
           combine: true
