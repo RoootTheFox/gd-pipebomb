@@ -6,7 +6,13 @@ set(CMAKE_CXX_VISIBILITY_PRESET hidden)
 
 project(Pipebomb VERSION 1.0.0)
 
-set(GEODE_BINDINGS_REPO_PATH "C:\\Users\\rooot\\Documents\\bindings")
+if("${GEODE_TARGET_PLATFORM}" STREQUAL "iOS")
+  message(STATUS "building for ios uwu")
+  unset(CMAKE_OSX_ARCHITECTURES)
+  set(CMAKE_OSX_ARCHITECTURES arm64)
+  set(CMAKE_OSX_DEPLOYMENT_TARGET "14.0")
+  set(CMAKE_SYSTEM_NAME "iOS")
+endif()
 
 add_library(${PROJECT_NAME} SHARED
     src/main.cpp
