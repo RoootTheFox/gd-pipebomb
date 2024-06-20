@@ -9,13 +9,10 @@ using namespace geode::prelude;
 static std::string last_msg = "";
 
 class $modify(TextArea) {
-	bool init(gd::string str, char const* font, float scale, float width, cocos2d::CCPoint anchor, float lineHeight, bool disableColor) {
-		if (!TextArea::init(str, font, scale, width, anchor, lineHeight, disableColor)) {
-			return false;
-		}
-
+	static TextArea* create(gd::string str, char const* font, float scale, float width, cocos2d::CCPoint anchor, float lineHeight, bool disableColor) {
+		auto ret = TextArea::create(str, font, scale, width, anchor, lineHeight, disableColor);
 		last_msg = str;
-		return true;
+		return ret;		
 	}
 };
 
