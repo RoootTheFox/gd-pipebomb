@@ -10,6 +10,9 @@
 	"name": "Pipe bomb",
 	"developer": "rooot",
 	"description": "Send pipe bombs to your friends!",
+	"tags": [
+		"online", "joke"
+	],
 	"resources": {
 		"files": [
 			"resources/audio/pipebomb.ogg"
