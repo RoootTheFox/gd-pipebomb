@@ -21,7 +21,7 @@ class $modify(GJMessagePopup) {
 		log::info("load - msg {} last {}", msg->m_messageID, last_msg);
 		GJMessagePopup::loadFromGJMessage(msg);
 
-		auto text_area = getChildOfType<TextArea>(this->m_mainLayer, 0);
+		auto text_area = this->m_mainLayer->getChildByType<TextArea>(0);
 		if (!text_area) {
 			log::error("text_area not found");
 			return;
