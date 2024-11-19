@@ -1,3 +1,15 @@
+# v0.1.7
+
+* geode update,,, so cool..,
+* apple yummy
+
+# v0.1.6
+
+* literally nothing changed
+* i mean i guess i updated it to geode v4 and gd 2.2074
+* also no more mac support bcs lazy
+* stopped caring about changelogs
+
 # v0.1.5
 
 * added tags to the mod's metadata
