@@ -42,7 +42,7 @@ jobs:
           combine: true
           target: ${{ matrix.config.target }}
           cli: nightly
-          sdk: 4.2.1
+          sdk: v4.2.1
           gh-pat: ${{ secrets.GH_PAT }}
 
   package:
