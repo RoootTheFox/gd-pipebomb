@@ -43,6 +43,7 @@ jobs:
           target: ${{ matrix.config.target }}
           cli: nightly
           sdk: 4.2.1
+          gh-pat: ${{ secrets.GH_PAT }}
 
   package:
     name: Package builds
