@@ -21,6 +21,8 @@ jobs:
         - name: iOS
           os: macos-latest
           target: iOS
+          cli: nightly
+          sdk: nightly
 
         - name: Android32
           os: ubuntu-latest
@@ -41,7 +43,8 @@ jobs:
         with:
           combine: true
           target: ${{ matrix.config.target }}
-          cli: ${{ matrix.config.cli != null && matrix.config.cli || '' }}
+          cli: ${{ matrix.config.cli != null && matrix.config.cli || 'default-value' }}
+          sdk: ${{ matrix.config.sdk != null && matrix.config.sdk || '' }}
 
   package:
     name: Package builds
