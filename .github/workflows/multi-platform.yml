@@ -43,7 +43,7 @@ jobs:
         with:
           combine: true
           target: ${{ matrix.config.target }}
-          cli: ${{ matrix.config.cli != null && matrix.config.cli || 'stable' }}
+          cli: ${{ matrix.config.cli != null && matrix.config.cli || '' }}
           sdk: ${{ matrix.config.sdk != null && matrix.config.sdk || 'stable' }}
 
   package:
