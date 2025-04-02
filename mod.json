@@ -11,6 +11,7 @@
 	"name": "Pipe bomb",
 	"developer": "rooot",
 	"description": "Send pipe bombs to your friends!",
+	"repository": "https://github.com/RoootTheFox/gd-pipebomb",
 	"tags": [
 		"online", "joke"
 	],
