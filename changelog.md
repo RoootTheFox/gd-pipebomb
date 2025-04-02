@@ -1,3 +1,7 @@
+# v0.1.8
+* god update
+* apple juice
+
 # v0.1.7
 
 * geode update,,, so cool..,
