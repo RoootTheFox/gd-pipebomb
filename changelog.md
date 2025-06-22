@@ -1,3 +1,8 @@
+# v0.1.9
+* even goder update
+* apple juice but without jit
+* may contain traces of sog
+
 # v0.1.8
 * god update
 * apple juice
