@@ -1,3 +1,9 @@
+# v0.2.0
+* updat gode to v5 (alpha)
+* update to 2.208 yay
+* removed everything but windows
+* yippie
+
 # v0.1.9
 * even goder update
 * apple juice but without jit
