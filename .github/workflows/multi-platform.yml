@@ -41,6 +41,7 @@ jobs:
         with:
           combine: true
           target: ${{ matrix.config.target }}
+          sdk: v5
 
   package:
     name: Package builds
