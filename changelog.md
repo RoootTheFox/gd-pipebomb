@@ -1,3 +1,8 @@
+# v0.2.1
+* i lied its this version now
+* the one before this doesn't exist
+* stop looking
+
 # v0.2.0
 * more gode but beta
 * yippie
