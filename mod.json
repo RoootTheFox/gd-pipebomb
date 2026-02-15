@@ -1,7 +1,10 @@
 {
-	"geode": "5.0.0-alpha.1",
+	"geode": "5.0.0-beta.1",
 	"gd": {
-		"win": "2.208"
+		"win": "2.2081",
+		"android": "2.2081",
+		"ios": "2.2081",
+		"mac": "2.2081"
 	},
 	"version": "v0.2.0",
 	"id": "rooot.pipebomb",

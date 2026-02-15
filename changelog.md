@@ -1,3 +1,7 @@
+# v0.2.0
+* more gode but beta
+* yippie
+
 # v0.1.9
 * even goder update
 * apple juice but without jit
